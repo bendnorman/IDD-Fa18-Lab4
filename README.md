@@ -27,7 +27,7 @@ Any PWM pin. So on the metro mini, 3, 5, 6, 9, 10, 11.
 
 **b. What aspects of the Servo code control angle or speed?**
 
-```servo.write(pos)``` controls the angle and the ```dela()``` betweent each call to ```servo.write(pos)``` determinds the speed.
+```servo.write(pos)``` controls the angle and the ```delay()``` betweent each call to ```servo.write(pos)``` determinds the speed.
 
 ## Part C. Integrating input and output
 
