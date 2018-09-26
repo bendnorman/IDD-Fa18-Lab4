@@ -15,12 +15,19 @@ To submit your lab, clone [this repository](https://github.com/FAR-Lab/IDD-Fa18-
 ### Part 1. Connect the Servo to your breadboard
 
 **a. Which color wires correspond to power, ground and signal?**
+Brown: ground
+Red: power
+Orange: signal line
 
 ### Part 2. Connect the Servo to your Arduino
 
 **a. Which Arduino pin should the signal line of the servo be attached to?**
 
+Any PWM pin. So on the metro mini, 3, 5, 6, 9, 10, 11.
+
 **b. What aspects of the Servo code control angle or speed?**
+
+```servo.write(pos)``` controls the angle and the ```dela()``` betweent each call to ```servo.write(pos)``` determinds the speed.
 
 ## Part C. Integrating input and output
 
@@ -33,4 +40,6 @@ To submit your lab, clone [this repository](https://github.com/FAR-Lab/IDD-Fa18-
 ## Part E. Make it your own
 
 **a. Make a video of your final design.**
+
+[This](https://drive.google.com/open?id=15sCubVx3TnRfIvvimFAZxLnWRTwV_qaU) video includes content for C, D and E.
  
